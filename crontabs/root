@@ -35,7 +35,7 @@
 #*/30 * * * * /var/opt/bedrock-server-backup/bedrock-server-backup.sh
 
 # 每30分钟拉一次流
-*/30 * * * * /var/opt/surveillance-video.sh
+*/30 * * * * /opt/surveillance-video.sh
 
 #创建前一日日期文件夹 并将监控视频移至该文件夹
 01 00 * * * mkdir /d/ftp/haikang/$(date -d "-1 days" +\%Y\%m\%d) && mv /d/ftp/haikang/*$(date -d "-1 days" +\%Y\%m\%d)*.* /d/ftp/haikang/$(date -d "-1 days" +\%Y\%m\%d)
