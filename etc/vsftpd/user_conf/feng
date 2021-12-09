@@ -1,0 +1,4 @@
+guest_username=feng
+virtual_use_local_privs=YES
+anon_umask=133
+local_root=/d
